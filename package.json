@@ -1,0 +1,33 @@
+{
+    "name": "sw7l",
+    "version": "1.1.0",
+    "description": "A Discord bot project focused on clan management with Mongoose and Discord.js.",
+    "main": "index.js",
+    "scripts": {
+        "start": "clear & node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "push": "git add . && git commit -m \"V1.1.0\" && git push",
+        "changelog": "git log --pretty=format:\"1. [**%s - `%h`**](https://github.com/Sw7lProjects/Clans/commit/%H)\" > CHANGELOG.md"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "clan",
+        "management",
+        "mongoose"
+    ],
+    "author": [
+        "RlxChap2 <mmah02778@gmail.com>",
+        "iMorganSo <morjan.mj11@gmail.com>"
+    ],
+    "license": "ISC",
+    "dependencies": {
+        "ascii-table": "^0.0.9",
+        "axios": "^1.8.2",
+        "discord.js": "^14.18.0",
+        "dotenv": "^16.4.5",
+        "mongoose": "^8.9.5",
+        "node-cron": "^3.0.3",
+        "uuid": "^11.1.0"
+    }
+}
